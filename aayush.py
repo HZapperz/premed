@@ -18,7 +18,6 @@ def read_pdf(file_path):
     return slides_text
 
 def generate_notes(slides_text):
-    openai.api_key = "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"
     generated_notes = []
     for slide in slides_text:
         prompt = f"Create study notes for the following slide content:\n{slide}"
