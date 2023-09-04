@@ -1,2 +1,5 @@
+streamlit==0.89.0
 pdf2image==1.16.0
-Pillow==8.2.0  # Pillow is often required for image handling
+PyPDF2==1.26.0
+openai==0.27.0
+pyttsx4==2.90
