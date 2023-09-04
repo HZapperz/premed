@@ -1,3 +1,4 @@
+key = "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"
 
 import streamlit as st
 import time
